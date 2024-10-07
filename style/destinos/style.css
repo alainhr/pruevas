@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://example.com/tu-imagen-de-fondo.jpg'); /* Cambia la URL por tu imagen */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con un poco de transparencia */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    padding: 30px; /* Espaciado interno */
+    max-width: 500px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho del contenedor en móviles */
+}
+
+/* Estilos del título */
+h2 {
+    color: #007bff; /* Color del título */
+    text-align: center; /* Centra el texto */
+}
+
+h3 {
+    margin-top: 20px; /* Espaciado superior */
+    color: #333; /* Color del subtítulo */
+}
+
+/* Estilos de los botones */
+.btn {
+    width: 100%; /* Botones a ancho completo */
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Espaciado entre campos */
+.mb-3 {
+    margin-bottom: 15px; /* Espacio inferior entre campos */
+}
+
+/* Estilos de textarea */
+textarea {
+    resize: none; /* Desactiva el cambio de tamaño manual */
+}
+
+/* Media Queries para ajustes responsivos */
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.5rem; /* Tamaño del título en móviles */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Tamaño del subtítulo en móviles */
+    }
+}
